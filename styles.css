@@ -24,6 +24,8 @@ img { display: block; max-width: 100%; }
 .site-header { position: relative; z-index: 5; display: grid; grid-template-columns: auto auto 1fr auto; align-items: center; gap: 30px; min-height: 88px; padding: 0 4vw; border-bottom: 1px solid var(--line); background: var(--paper); }
 .brand { display: inline-flex; align-items: center; gap: 10px; width: max-content; }
 .brand-word { font: 500 clamp(28px, 3vw, 38px)/.8 var(--serif); letter-spacing: -.09em; }
+.brand-logo { display: block; height: clamp(24px, 2.4vw, 32px); width: auto; }
+.footer-brand .brand-logo { height: clamp(32px, 3.4vw, 46px); }
 .brand-subtitle { align-self: flex-end; padding-bottom: 2px; font: 9px var(--mono); letter-spacing: .08em; }
 .icon-button { display: grid; gap: 5px; justify-self: start; padding: 12px 0; background: none; }
 .icon-button span { width: 24px; height: 1px; display: block; background: var(--ink); }
