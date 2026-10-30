@@ -1,0 +1,7 @@
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+node_modules
+products
+hero section/Screen*.mp4
